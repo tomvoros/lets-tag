@@ -1,17 +1,13 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Let's Tag", "Let's Tag\Let's Tag.csproj", "{33E63699-BFB6-4719-9D9A-BBFA6AF7A8AE}"
-EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Let's Tag Installer", "Let's Tag Installer\Let's Tag Installer.vdproj", "{5C64327A-8F14-47C6-8025-4F81A3C330BF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Let's Tag Console", "Let's Tag\Let's Tag Console.csproj", "{4E480DE6-1F7A-4BEF-BCCB-F027E1ADFE9B}"
 EndProject
 Global
-	GlobalSection(SubversionScc) = preSolution
-		Svn-Managed = True
-		Manager = AnkhSVN - Subversion Support for Visual Studio
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -21,8 +17,6 @@ Global
 		{33E63699-BFB6-4719-9D9A-BBFA6AF7A8AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33E63699-BFB6-4719-9D9A-BBFA6AF7A8AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33E63699-BFB6-4719-9D9A-BBFA6AF7A8AE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5C64327A-8F14-47C6-8025-4F81A3C330BF}.Debug|Any CPU.ActiveCfg = Debug
-		{5C64327A-8F14-47C6-8025-4F81A3C330BF}.Release|Any CPU.ActiveCfg = Release
 		{4E480DE6-1F7A-4BEF-BCCB-F027E1ADFE9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4E480DE6-1F7A-4BEF-BCCB-F027E1ADFE9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E480DE6-1F7A-4BEF-BCCB-F027E1ADFE9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -30,5 +24,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
 	EndGlobalSection
 EndGlobal
