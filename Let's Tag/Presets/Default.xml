@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<preset delimiter="//">
+  <field mp3tagFormat="%disc%"><discnumber/></field>
+  <field mp3tagFormat="%track%"><tracknumber/></field>
+  <field mp3tagFormat="%title%"><trackname/></field>
+  <field mp3tagFormat="%album%"><albumfield name="Album Name"/></field>
+  <field mp3tagFormat="%artist%"><albumfield name="Composed by"/></field>
+  <field mp3tagFormat="%copyright%"><albumfield name="Published by"/></field>
+  <field mp3tagFormat="%comment%"><albumfield name="Catalog Number"/></field>
+  <field mp3tagFormat="%genre%">Game</field>
+</preset>
