@@ -12,7 +12,7 @@ namespace LetsTag
             RegexOptions.Singleline | RegexOptions.IgnoreCase);
 
         readonly static Regex trackRegex = new Regex(
-            @"<span\s+class\s*=\s*" + "[\\\'\\\"]label[\\\'\\\"]" + @"\s*>(.*?)</span>" + // Track number
+            @"<span\s+class\s*=\s*[\'\""]label[\'\""]\s*>(.*?)</span>" + // Track number
             @".*?<td.*?>(.*?)</td>", // Track name
             RegexOptions.Singleline | RegexOptions.IgnoreCase);
 

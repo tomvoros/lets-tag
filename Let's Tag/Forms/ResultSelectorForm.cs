@@ -9,10 +9,10 @@ namespace LetsTag
     public partial class ResultSelectorForm : Form
     {
         readonly static Regex regex = new Regex(
-            @"<span\s+class\s*=\s*" + "[\\\'\\\"]catalog[\\\'\\\"]" + @".*?>(.*?)</span>" + // Catalog number
-            @"(.*?<img\s+.*?alt\s*=\s*" + "[\\\'\\\"](.*?)[\\\'\\\"]" + @")?" + // Reprint info, etc.
-            @".*?<a\s+href\s*=\s*" + "[\\\'\\\"].*?album/(.*?)[\\\'\\\"]" + @">" + // Album number
-            @".*?<span\s+class\s*=\s*" + "[\\\'\\\"]albumtitle[\\\'\\\"]" + @".*?lang\s*=\s*" + "[\\\'\\\"]en[\\\'\\\"]" + @".*?>(.*?)</span>", // Album title
+            @"<span\s+class\s*=\s*[\'\""]catalog[\'\""].*?>(.*?)</span>" + // Catalog number
+            @"(.*?<img\s+.*?alt\s*=\s*[\'\""](.*?)[\'\""])?" + // Reprint info, etc.
+            @".*?<a\s+href\s*=\s*[\'\""].*?album/(.*?)[\'\""]>" + // Album number
+            @".*?<span\s+class\s*=\s*[\'\""]albumtitle[\'\""].*?lang\s*=\s*[\'\""]en[\'\""].*?>(.*?)</span>", // Album title
             RegexOptions.IgnoreCase);
 
         string resultsString;

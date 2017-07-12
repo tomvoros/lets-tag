@@ -9,25 +9,23 @@ namespace LetsTag
     public static class AlbumParser
     {
         readonly static Regex albumNameRegex = new Regex(
-            @"<span\s+class\s*=\s*" + "[\\\'\\\"]albumtitle[\\\'\\\"]" + @"\s+lang\s*=\s*" + "[\\\'\\\"]en[\\\'\\\"]" + @".*?>(.*?)</span>",
+            @"<span\s+class\s*=\s*[\'\""]albumtitle[\'\""]\s+lang\s*=\s*[\'\""]en[\'\""].*?>(.*?)</span>",
             RegexOptions.Singleline | RegexOptions.IgnoreCase);
 
         readonly static Regex coverRegex = new Regex(
-            @"<img\s+id\s*=\s*" + "[\\\'\\\"]coverart[\\\'\\\"]" + @"\s+.*?src\s*=\s*" + "[\\\'\\\"]\\.\\./(.*?)[\\\'\\\"]",
+            @"<div\s+id\s*=\s*[\'\""]coverart[\'\""]\s+[^>]*background-image:\s*url\('(.*?)'\)",
             RegexOptions.Singleline | RegexOptions.IgnoreCase);
 
         readonly static Regex detailRegex = new Regex(
-            @"<tr>.*?<td.*?>.*?<span\s+class\s*=\s*" + "[\\\'\\\"]label[\\\'\\\"]" + @".*?>\s*<b>(.*?)</b>\s*</span>.*?</td>" +
-            @".*?<td.*?>(.*?)</td>.*?</tr>",
+            @"<tr>.*?<td.*?>.*?<span\s+class\s*=\s*[\'\""]label[\'\""].*?>\s*<b>(.*?)</b>\s*</span>.*?</td>.*?<td.*?>(.*?)</td>.*?</tr>",
             RegexOptions.Singleline | RegexOptions.IgnoreCase);
 
         readonly static Regex detailCatalogNumberRegex = new Regex(
-            @"<span\s+id\s*\=\s*" + "[\\\'\\\"]childbrowse[\\\'\\\"]" + @".*?" +
-            @"<a\s+.*?>(.*?)</a>",
+            @"<span\s+id\s*\=\s*[\'\""]childbrowse[\'\""].*?<a\s+.*?>(.*?)</a>",
             RegexOptions.Singleline | RegexOptions.IgnoreCase);
 
         readonly static Regex detailMultilingualValueRegex = new Regex(
-            @"<span\s+.*?lang\s*\=\s*" + "[\\\'\\\"](.*?)[\\\'\\\"]" + @".*?>(.*?)</span>",
+            @"<span\s+.*?lang\s*\=\s*[\'\""](.*?)[\'\""].*?>(.*?)</span>",
             RegexOptions.Singleline | RegexOptions.IgnoreCase);
 
         readonly static Regex detailValueCleanupRegex = new Regex(
@@ -50,7 +48,7 @@ namespace LetsTag
             match = coverRegex.Match(data);
 
             if (match.Success)
-                album.Cover = GetImage(string.Format("http://vgmdb.net/{0}", match.Groups[1].Value));
+                album.Cover = GetImage(match.Groups[1].Value);
 
             // Extract other details
 
