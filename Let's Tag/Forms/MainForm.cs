@@ -189,9 +189,16 @@ namespace LetsTag
         {
             this.album = album;
 
-            albumCoverPanel.BackgroundImage = album.Cover;
-            albumCoverPanel.Width = album.Cover.Width;
-            albumCoverPanel.Height = album.Cover.Height;
+            if (album.Cover != null)
+            {
+                albumCoverPanel.BackgroundImage = album.Cover;
+                albumCoverPanel.Width = album.Cover.Width;
+                albumCoverPanel.Height = album.Cover.Height;
+            }
+            else
+            {
+                albumCoverPanel.BackgroundImage = null;
+            }
 
             detailsListView.Items.Clear();
             foreach(KeyValuePair<string, string> detail in album.Details)
