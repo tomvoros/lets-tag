@@ -5,6 +5,11 @@ Let's Tag assists in tagging game music albums.  It connects to vgmdb.net to dow
 #### Let's Tag v0.2.2
 https://github.com/tomvoros/lets-tag/releases/tag/v0.2.2
 
+### How to Use
+
+Here's a slideshow demonstrating how to use Let's Tag with Mp3tag:
+https://docs.google.com/presentation/d/1VVsxFKsUv7I_9lPwckUHx_1J1F59uvIitz7l8ls7q5U/embed
+
 ### Links
 
 VGMdb:
