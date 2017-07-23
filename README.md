@@ -1,3 +1,7 @@
+# Let's Tag
+
+[![ghit.me](https://ghit.me/badge.svg?repo=tomvoros/lets-tag)](https://ghit.me/repo/tomvoros/lets-tag)
+
 Let's Tag assists in tagging game music albums.  It connects to vgmdb.net to download album data and exports it in a format that can be imported into Mp3tag.
 
 ## Download
