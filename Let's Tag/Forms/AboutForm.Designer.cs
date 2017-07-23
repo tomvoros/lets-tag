@@ -196,7 +196,7 @@
             // 
             this.mp3tagLinkLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.mp3tagLinkLabel.AutoSize = true;
-            this.mp3tagLinkLabel.Location = new System.Drawing.Point(116, 41);
+            this.mp3tagLinkLabel.Location = new System.Drawing.Point(85, 41);
             this.mp3tagLinkLabel.Name = "mp3tagLinkLabel";
             this.mp3tagLinkLabel.Size = new System.Drawing.Size(137, 13);
             this.mp3tagLinkLabel.TabIndex = 2;
@@ -208,7 +208,7 @@
             // 
             this.vgmdbLinkLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.vgmdbLinkLabel.AutoSize = true;
-            this.vgmdbLinkLabel.Location = new System.Drawing.Point(116, 22);
+            this.vgmdbLinkLabel.Location = new System.Drawing.Point(85, 22);
             this.vgmdbLinkLabel.Name = "vgmdbLinkLabel";
             this.vgmdbLinkLabel.Size = new System.Drawing.Size(93, 13);
             this.vgmdbLinkLabel.TabIndex = 1;
@@ -220,12 +220,12 @@
             // 
             this.brinkoftimeLinkLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.brinkoftimeLinkLabel.AutoSize = true;
-            this.brinkoftimeLinkLabel.Location = new System.Drawing.Point(116, 3);
+            this.brinkoftimeLinkLabel.Location = new System.Drawing.Point(85, 3);
             this.brinkoftimeLinkLabel.Name = "brinkoftimeLinkLabel";
-            this.brinkoftimeLinkLabel.Size = new System.Drawing.Size(112, 13);
+            this.brinkoftimeLinkLabel.Size = new System.Drawing.Size(182, 13);
             this.brinkoftimeLinkLabel.TabIndex = 0;
             this.brinkoftimeLinkLabel.TabStop = true;
-            this.brinkoftimeLinkLabel.Text = "http://brinkoftime.net/";
+            this.brinkoftimeLinkLabel.Text = "https://github.com/tomvoros/lets-tag";
             this.brinkoftimeLinkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.brinkoftimeLinkLabel_LinkClicked);
             // 
             // AboutForm
