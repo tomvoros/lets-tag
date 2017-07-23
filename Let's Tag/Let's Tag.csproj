@@ -231,7 +231,6 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="icon.ico" />
-    <Content Include="GPL.txt" />
     <Resource Include="icon_grey.ico" />
     <Content Include="Presets\Track Data Only.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -239,7 +238,6 @@
     <Content Include="Presets\Default.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="README.txt" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">

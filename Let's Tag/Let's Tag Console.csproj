@@ -76,7 +76,6 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="icon_grey.ico" />
-    <Content Include="GPL.txt" />
     <Content Include="Presets\Default.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -84,7 +83,6 @@
     <Content Include="Presets\Track Data Only.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="README.txt" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="ConsoleResource.resx">

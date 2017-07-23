@@ -1,5 +1,8 @@
 Let's Tag assists in tagging game music albums.  It connects to vgmdb.net to download album data and exports it in a format that can be imported into Mp3tag.
 
+Download Let's Tag:
+https://github.com/tomvoros/lets-tag/releases
+
 Links:
 
 VGMdb:
@@ -9,6 +12,11 @@ Mp3tag:
 http://www.mp3tag.de/en/
 
 Release History:
+
+Version 0.2.2 (July 23, 2017)
+* Published Let's Tag to GitHub
+* Updated Let's Tag to support the current version of vgmdb.net
+* Updated the link in the About window to point to GitHub
 
 Version 0.2.1 (May 23, 2009)
 * Added drag and drop for album cover.  When the album cover is dropped on an Explorer window, it is saved as folder.jpg.
