@@ -1,7 +1,9 @@
 Let's Tag assists in tagging game music albums.  It connects to vgmdb.net to download album data and exports it in a format that can be imported into Mp3tag.
 
 ### Download
-https://github.com/tomvoros/lets-tag/releases
+
+#### Let's Tag v0.2.2
+https://github.com/tomvoros/lets-tag/releases/tag/v0.2.2
 
 ### Links
 
