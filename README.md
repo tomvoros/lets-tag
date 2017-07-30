@@ -4,6 +4,8 @@
 
 Let's Tag assists in tagging game music albums.  It connects to vgmdb.net to download album data and exports it in a format that can be imported into Mp3tag.
 
+![Screenshot](http://brinkoftime.net/wordpress/wp-content/uploads/2009/05/letstag_02.png)
+
 ## Download
 
 ### Let's Tag v0.2.2
@@ -11,22 +13,28 @@ https://github.com/tomvoros/lets-tag/releases/tag/v0.2.2
 
 ## How to Use
 
-Here's a slideshow demonstrating how to use Let's Tag with Mp3tag:
+Here's a slideshow demonstrating how to use Let's Tag with Mp3tag:  
 https://docs.google.com/presentation/d/1VVsxFKsUv7I_9lPwckUHx_1J1F59uvIitz7l8ls7q5U/embed
 
 ## Alternatively...
 
 Other ways to get VGMdb tag data that may be more convenient than using Let's Tag:
-* VGMdb's official CDDB/freedb support (by Zorbfish): http://vgmdb.net/forums/showthread.php?t=2618
-* VGMdb data source for Mp3tag (by dano): https://forums.mp3tag.de/index.php?showtopic=10991
-* Another VGMdb data source for Mp3tag (by PBXg33k): https://gist.github.com/PBXg33k/7b80a86d53b922f0873a
+* VGMdb's official CDDB/freedb support (by Zorbfish):  
+  http://vgmdb.net/forums/showthread.php?t=2618
+* VGMdb data source for Mp3tag (by dano):  
+  https://forums.mp3tag.de/index.php?showtopic=10991
+* Another VGMdb data source for Mp3tag (by PBXg33k):  
+  https://gist.github.com/PBXg33k/7b80a86d53b922f0873a
 
 ## Links
 
-VGMdb:
+VGMdb:  
 http://vgmdb.net
 
-Mp3tag:
+Let's Tag discussion thread on VGMdb Forums:  
+http://vgmdb.net/forums/showthread.php?t=1902
+
+Mp3tag:  
 http://www.mp3tag.de/en/
 
 ## Release History
